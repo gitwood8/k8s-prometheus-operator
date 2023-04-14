@@ -1,0 +1,18 @@
+ВОт тут эти имаджи указаны!
+https://docs.aws.amazon.com/eks/latest/userguide/eks-optimized-ami.html
+
+/c/MyDesktop/ADV-IT/Key_ssh/wood8-key-london-2.pem
+
+      privateKeyPath: "C:\MyDesktop\ADV-IT\Key_ssh\wood8-key-london-2.pem"
+      privateKeyPath: C:/MyDesktop/ADV-IT/Key_ssh/wood8-key-london-2.pem
+
+eksctl utils validate-config --config-file=config.yml
+
+
+
+Обновлем конфиг с aws, что-то типа того
+aws eks update-kubeconfig --name wood8
+
+
+kubectl apply --server-side -f kube-prometheus/manifests/setup/
+kubectl apply -f kube-prometheus/manifests/
