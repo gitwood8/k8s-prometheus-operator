@@ -6,7 +6,7 @@ eksctl create cluster -f eks-config/launch-cluster.yaml
 Renew kubeconfig to use local Lens:
 aws eks update-kubeconfig --name wood8
 
-Install argoCD:  #
+Install argoCD:  123
 ----- Argo CD Deploy for Windows -----
 ==================================
 
