@@ -7,9 +7,9 @@ Renew kubeconfig to use local Lens:
 aws eks update-kubeconfig --name wood8
 
 Install argoCD:
-==================================
------ Argo CD Deploy for Windows -----
 
+----- Argo CD Deploy for Windows -----
+==================================
 
 ----- Execute Installation -----
 ----------------------
